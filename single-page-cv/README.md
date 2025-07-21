@@ -18,7 +18,7 @@ It includes semantic structure, Open Graph tags, and a clean layout suitable for
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anujit1/Single-Page-CV-Template
+git clone https://github.com/Anujit1/FrontEndProjects
 
 # Navigate to the project directory
 cd Single-Page-CV-Template
