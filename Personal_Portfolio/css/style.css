@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  border-bottom: 2px solid black;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logo{
+  font-family: "Schoolbell", cursive;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+.nav-logo a{
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link{
+  margin: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+}
+
+.nav-link p,a{
+  font-family: "Schoolbell", cursive;
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 5px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: black; 
+  transform: rotate(340deg);
+  transition: 300ms;
+}
+
+.nav-link a:hover{
+  transform: rotate(360deg);
+  color: rgb(42, 170, 255);
+  text-decoration: underline;
+}
+
+.main-container{
+  width: 100hw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container h1{
+  font-family: "Homemade Apple", cursive;
+  font-size: 5rem;
+}
+
+#on-page{
+  transform: rotate(360deg);
+  color: rgb(42, 170, 255);
+  text-decoration: underline;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+}
