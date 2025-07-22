@@ -32,4 +32,16 @@ A multipage static website focusing on proper HTML structure without CSS.
 
 ---
 
+### 3️⃣ [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+A responsive personal portfolio website built with HTML and CSS. Focuses on styling a structured HTML layout using modern CSS techniques.
 
+- ✅ Mobile-first responsive design
+- ✅ Semantic HTML structure with header, main, footer
+- ✅ External custom fonts from Google Fonts
+- ✅ CSS flexbox layout and media queries
+- ✅ Navigation bar, hero section, and page links
+
+📂 Project files: [personal-portfolio](https://github.com/Anujit1/FrontEndProjects/tree/main/personal-portfolio)
+
+
+---
