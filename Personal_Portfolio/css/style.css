@@ -61,7 +61,7 @@ nav{
 }
 
 .main-container{
-  width: 100hw;
+  width: 100vw;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -84,4 +84,51 @@ footer{
   position: absolute;
   bottom: 10px;
   right: 50%;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin: 10px;
+  }
+
+  .nav-link {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link a {
+    margin: 5px 0;
+    padding: 5px 10px;
+    transform: none;
+  }
+
+  .nav-link a:hover {
+    transform: none;
+  }
+
+  .main-container {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .main-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  footer {
+    position: static;
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
